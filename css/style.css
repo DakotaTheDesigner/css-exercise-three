@@ -109,5 +109,5 @@ nav {
 
 /* Added per instruction #7 */
 .restaurant-list :hover { 
-  background-color: yellow;
+  background-color: lightgrey;
 }
