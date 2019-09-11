@@ -11,36 +11,21 @@
   font-size: 10px;
 }
 
-h1 { 
-  font-weight: bold;
-  font-size: 20px;
-  font-family: roboto;
-  padding-bottom: 10px;
-}
-
-h3 { 
-  font-size: 15px;
-  font-family: roboto;
-}
-
-.location {
-  padding: 15px;
-}
-
-
-.location div{
-  display: inline-block;
-}
-
-.arrow {
-  float: right;
-  margin-top: 10px;
-}
-
 .container {
   background-color: lightgray;
   margin: 0 auto;
   width: 420px;
+}
+
+.restaurant-list h1 { 
+  font-weight: bold;
+  font-size: 20px;
+  font-family: roboto;
+}
+
+.restaurant-list h3 { 
+  font-size: 15px;
+  font-family: roboto;
 }
 
 nav {
@@ -51,11 +36,39 @@ nav {
   background-color: black;
 }
 
+/* Added per instruction #7 */
+.restaurant-list :hover { 
+  background-color: darkgrey;
+}
+
 .restaurant-list {
   padding-top: 50px;
 }
 
-/* Added per instruction #7 */
-.restaurant-list :hover { 
-  background-color: lightgrey;
+hr {
+  width: 420px;
+}​
+
+
+
+
+
+
+
+.tile {
+  padding: 100px;
 }
+
+
+.tile div{
+  display: inline-block;
+}
+
+
+/* .arrow {
+  float: right;
+  margin-top: 10px;
+} */
+
+
+
